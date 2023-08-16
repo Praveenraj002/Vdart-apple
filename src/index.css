@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Inter", sans-serif;
+}
+
+.navbar-bg {
+  background-color: #454545;
+}
+
+.btn{
+  color: #3F8BD6;
+}
