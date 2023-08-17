@@ -8,9 +8,7 @@ const NavbarSm = () => {
       <div className="navbar-bg p-2">
         <div className="container mx-auto px-2">
           <div className="flex flex-row justify-between items-center">
-            <NavbarList to="/">
-              <BiLogoApple className="text-3xl text-gray-200 hover:text-white cursor-pointer" />
-            </NavbarList>
+            <BiLogoApple className="text-3xl text-gray-200 hover:text-white cursor-pointer" />
             <NavbarSmList />
           </div>
         </div>

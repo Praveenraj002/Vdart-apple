@@ -4,12 +4,54 @@
 
 * {
   font-family: "Inter", sans-serif;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 .navbar-bg {
   background-color: #454545;
 }
 
-.btn{
-  color: #3F8BD6;
+.btn {
+  color: #3f8bd6;
 }
+
+.bg {
+  background-color: #f3f2f5;
+}
+
+.navLinks:hover {
+  color: red;
+}
+
+/* DropDown */
+.dropdown {
+  position: relative;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #333;
+  top: 100%;
+  left: 0;
+  min-width: 150px;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu li {
+  padding: 0.5rem;
+}
+
+.dropdown-menu a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.dropdown-menu a:hover {
+  background-color: #444;
+}
+

@@ -7,7 +7,7 @@ const NavbarSmList = () => {
   const [menu, setMenu] = useState(false);
 
   const toggleMenu = () => {
-    setMenu(true);
+    setMenu(!menu);
   };
 
   return (
@@ -16,7 +16,11 @@ const NavbarSmList = () => {
         <BsSearch className="cursor-pointer" />
         <BsBag className="cursor-pointer" />
         <div onClick={toggleMenu}>
-          {menu ? <AiOutlineClose className="cursor-pointer"/> : <RxHamburgerMenu className="cursor-pointer"/>}
+          {menu ? (
+            <AiOutlineClose className="cursor-pointer" />
+          ) : (
+            <RxHamburgerMenu className="cursor-pointer" />
+          )}
         </div>
       </div>
     </>

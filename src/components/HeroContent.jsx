@@ -16,12 +16,13 @@ const HeroContent = () => {
         <button className="btn flex flex-row items-center text-lg hover:underline">
           Shop now <AiOutlineRight />
         </button>
-        <div className="w-52 md:w-64 mb-10">
-          <img
-            src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/preunidays-header-hero-202306_GEO_IN?wid=804&hei=728&fmt=png-alpha&.v=1685548520689"
-            alt=""
-            className="w-full h-full"
-          />
+        <div className="w-full h-full flex justify-center items-center transform scale-100">
+          <video className="w-full h-auto " controls autoPlay loop>
+            <source
+              src="https://www.apple.com/105/media/ww/home/2023/c75c958b-b7ab-431f-8c24-703fa6aafd7e/anim/bts-hero/large.mp4"
+              type="video/mp4"
+            />
+          </video>
         </div>
       </div>
     </div>
@@ -29,3 +30,5 @@ const HeroContent = () => {
 };
 
 export default HeroContent;
+
+// src="https://www.apple.com/105/media/ww/home/2023/c75c958b-b7ab-431f-8c24-703fa6aafd7e/anim/bts-hero/large.mp4"
